@@ -1,1 +1,90 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background: #f1f6f9;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  padding: 16px;
+  margin: 12px;
+  font-size: 1em;
+  border-radius: 6px;
+  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+li > button {
+  border: none;
+  background-color: #fff;
+  font-size: 1em;
+  float: right;
+  opacity: 0.6;
+  transition: opacity 1s;
+}
+
+li > button:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.title {
+  color: #212a3e;
+  font-size: 3em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: #212a3e;
+  border: none;
+  padding: 20px;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 1em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#modal {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  width: 100%;
+  line-height: 50px;
+  text-indent: 10px;
+  font-size: 1.1em;
+}
+
+.danger {
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+}
